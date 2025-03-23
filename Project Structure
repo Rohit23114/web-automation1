@@ -1,0 +1,17 @@
+web-automation-project/
+├── tests/
+│   ├── test_login.py
+│   ├── test_cart.py
+│   └── test_title.py
+├── pages/
+│   ├── base_page.py
+│   ├── login_page.py
+│   └── cart_page.py
+├── config/
+│   └── config.py
+├── drivers/
+│   └── chromedriver.exe  # or put this in a PATH-accessible location
+├── utils/
+│   └── driver_factory.py
+├── requirements.txt
+└── README.md
